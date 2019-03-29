@@ -23,13 +23,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         btnFirst=(Button) findViewById(R.id.btnFirst);
-        btnSecond=(Button) findViewById(R.id.btnSecond);
+        btnSecond     =(Button) findViewById(R.id.btnSecond);
         tvOutput=(TextView) findViewById(R.id.tvOutput);
 
         btnFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
             }
         });
 
